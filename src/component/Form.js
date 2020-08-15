@@ -45,7 +45,6 @@ render(){
             </label>
             <br/>
             <input className="field" type="file" id="myFile" name="filename"/>
-            <input type="submit"/>
             <br/><br/>
             <label>Breed : 
               <input id="breed" className="field"  type="text" placeholder="Pet's Breed" value={this.state.breed} onChange={this.handleChange}/>
@@ -75,6 +74,8 @@ render(){
             <div className= "bottomButton">
         <div className="btn1"> <button id="b_button">Back</button></div>
            <div className="btn2"> <button id="b_button">Next</button></div>
+           <br/>
+           <input type="submit"/>
             
         </div>
        </form>
