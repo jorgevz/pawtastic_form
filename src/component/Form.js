@@ -38,7 +38,7 @@ class Paw_Form extends React.Component {
 render(){  
    return(
      
-       <form onSubmit = {this.handleSubmit}>
+       <form onSubmit = {this.handleSubmit} id='my-form'>
             
             <label> Name : 
             <input id="userName" className="field" type="text" placeholder="Pet's Name" value={this.state.userName} onChange={this.handleChange} />
