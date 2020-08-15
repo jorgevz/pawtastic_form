@@ -41,7 +41,7 @@ render(){
        <form onSubmit = {this.handleSubmit} id='my-form'>
             
             <label> Name : 
-            <input id="userName" className="field" type="text" placeholder="Pet's Name" value={this.state.userName} onChange={this.handleChange} />
+            <input id="userName" className="field" type="text" placeholder="Dog's Name" value={this.state.userName} onChange={this.handleChange} />
             </label>
             <br/>
             <input className="field" type="file" id="myFile" name="filename"/>
