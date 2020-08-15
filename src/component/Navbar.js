@@ -2,11 +2,11 @@ import React from 'react';
 
 function Navbar (){
     return (
-        <div>
-        <section className = "title">
+        <div className = "title">
+        <section>
         <ul>
-        <li>Home</li>
-        <li>Form</li>
+        <link>Home</link>
+        <link>Form</link>
         </ul>
     </section>
     <h2>Pawtastic</h2>
