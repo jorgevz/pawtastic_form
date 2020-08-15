@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Paw_Form extends React.Component {   
+class Form extends React.Component {   
   constructor(props){
     super(props);
     this.state={
@@ -13,7 +13,7 @@ class Paw_Form extends React.Component {
       weight:'',
     };
 
-    this.handleChange = this.handleChange.bind(this);
+    this.handleChange=this.handleChange.bind(this);
     this.handleSubmit=this.handleSubmit.bind(this);
 }
   handleChange(event){
@@ -82,4 +82,4 @@ render(){
 }
 }
  
-export default Paw_Form;
+export default Form;
