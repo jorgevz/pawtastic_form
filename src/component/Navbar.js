@@ -5,8 +5,8 @@ function Navbar (){
         <div className = "title">
         <section>
         <ul>
-        <link>Home</link>
-        <link>Form</link>
+        <li>Home</li>
+        <li>Form</li>
         </ul>
     </section>
     <h2>Pawtastic</h2>
