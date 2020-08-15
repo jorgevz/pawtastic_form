@@ -22,16 +22,16 @@ function App() {
     <Link to='/'>Home</Link>
     </li>
     <li>
-    <Link to='/About'>About</Link>
+    <Link to='/Form'>Form</Link>
     </li>
     </ul>
     </nav>
     
     <Switch>
-    
+   
+    <Route exact path='/Navbar' component={Navbar}/>
     <Route path='/Form' component={Form}/>
-    <Route path='/About' component={About}/>
-    <Route exact path='/' component={Home}/>
+    
   
    
     </Switch>
