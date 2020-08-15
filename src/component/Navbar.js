@@ -4,12 +4,15 @@ function Navbar (){
     return (
         <div className = "title">
         <section>
+       
         <nav>
         <li>Home</li>
         <li>Form</li>
+        <h2>Pawtastic</h2>
         </nav>
-    </section>
-    <h2>Pawtastic</h2>
+    
+        </section>
+    
     </div>
     );
 }
