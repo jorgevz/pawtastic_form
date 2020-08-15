@@ -4,10 +4,10 @@ function Navbar (){
     return (
         <div className = "title">
         <section>
-        <ul>
+        <nav>
         <li>Home</li>
         <li>Form</li>
-        </ul>
+        </nav>
     </section>
     <h2>Pawtastic</h2>
     </div>
