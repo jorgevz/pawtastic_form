@@ -9,6 +9,7 @@ function Navbar (){
         <li>Form</li>
         </ul>
     </section>
+    <h2>Pawtastic</h2>
     </div>
     );
 }
