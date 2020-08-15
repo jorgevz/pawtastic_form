@@ -55,11 +55,12 @@ render(){
                 <br></br>
             </label>  
            <br/>
-            Gender :
-            <label htmlFor= "toggle" className= "switch">  
-               <input type="checkbox" id="toggle" className="checkbox"/>
-            </label>
-            <br/>  <br/>
+            Male :
+            <input type="checkbox" id="toggle" className="checkbox"/>
+            <br/>
+            Female :
+            <input type="checkbox" id="toggle" className="checkbox"/>
+            <br/>  
             Spayed or Neutered :
             <label htmlFor= "toggle" className= "switch2">
                 <br/>
