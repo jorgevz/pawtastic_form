@@ -19,7 +19,7 @@ function App() {
     <nav>
     <ul>
     <li>
-    <Link to='/'>Home</Link>
+    <Link to='/Navbar'>Home</Link>
     </li>
     <li>
     <Link to='/Form'>Form</Link>
