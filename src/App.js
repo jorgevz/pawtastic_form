@@ -1,8 +1,14 @@
 import React from 'react';
 import './App.css';
-import Navbar from './component/Navbar';
-import Form from './component/Form'
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+  } from 'react-router-dom'
+  import Navbar from './component/Navbar';
+  import Form from './component/Form';
+  
 function App() {
   return (
     <div className="App">
